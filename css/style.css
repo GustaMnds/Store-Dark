@@ -14,25 +14,38 @@
 body{
   background-color: #445151;
   font-family: "Cinzel", Sans-Serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
+  height: 100vh;
 }  
 
-.cabecalho{
+.tudo{
   width: 100%;
-  padding: 30px 0px 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cabecalho{
+  width: 10%;
+  padding: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .cabecalho img{
-  width: 100px;
+  width: 230px;
   border-radius: 100%;
-  background-color: reen;
 }
 
 .espaco{
-  padding: 0px 50px;
+  padding: 70%;
 }
 
 .barra-pesquisa{
@@ -43,7 +56,7 @@ body{
   align-items: center;
 }
 
-.pesquisa{
+.pesuisa{
  background-color: #747574;
  color: #000;
  width: 360px;
@@ -66,8 +79,13 @@ body{
 }
 
 .box1{
-  width: 100%;
-  background-color: prple;
+  width: %;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: red;
 }
 
 .box{
@@ -85,33 +103,32 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 5rem 0px ;
+  padding: 0%;
   border: 5px;
-  background-color: #827929;
 }
 
 .container h1{
   font-size: 120px;
-  background-color:#cd6b00;
 }
 
 .container2{
-  background-color: green;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container2 a{
   font-size: 20px;
   color: white;
-  background-color: blue;
 }
 
 .gmail{
-  padding: 130px 0px 20px;
+  padding: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background-color:#00db9;
 }
 
 .gmail a{
@@ -120,15 +137,153 @@ body{
   color: #000;
 }
 
-@edia (max-width: 800px){
+@media (min-width: 576px) and (max-width: 767.98px){
   body{
-    background-color: red;
-    
+  background-colo: blue;
   }
+  
+  .cabecalho img{
+  width: 80px;
+  border-radius: 100%;
+  }
+  
+  .cabecalho a{
+  display: flex;
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  }
+  
+  .container h1{
+  font-size: 95px;
+ }
+ 
+ .container2 a{
+  font-size: 15px;
+  color: white;
+ }
 }
-@edia (max-width: 468px){
+
+@media (min-width: 768px) and (max-width: 991.98px){
   body{
-    background-color: blue;
-    
+  background-colo: red;
   }
+  
+  .cabecalho img{
+  width: 120px;
+  border-radius: 100%;
+  background-colo:#00ccb9;
+  }
+  
+  .cabecalho a{
+  display: flex;
+  color: #000;
+  font-size: 25px;
+  padding: 15px;
+  text-decoration: none;
+  }
+  
+  .container h1{
+  font-size: 115px;
+ }
+ 
+ .container2 a{
+  font-size: 20px;
+  color: white;
+ }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+  body{
+  background-colo: green;
+  }
+  
+  .cabecalho img{
+  width: 160px;
+  border-radius: 100%;
+  background-colo:#00ccb9;
+  }
+  
+  .cabecalho a{
+  display: flex;
+  color: #000;
+  font-size: 30px;
+  padding: 10px;
+  text-decoration: none;
+  }
+  
+  .container h1{
+  font-size: 135px;
+  }
+  
+  .containr2 a{
+  font-size: 25px;
+  color: white;
+ }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+  body{
+  background-colo: white;
+  }
+  
+  .cabecalho img{
+  width: 200px;
+  border-radius: 100%;
+  }
+  
+  .cabecalho a{
+  display: flex;
+  color: #000;
+  font-size: 35px;
+  padding: 10px;
+  text-decoration: none;
+  }
+  
+  .container h1{
+  font-size: 155px;
+ }
+ 
+ .container2 a{
+  font-size: 25px;
+  color: white;
+ }
+}
+
+@media (min-width: 1400px){
+  body{
+  background-colo: purple;
+  }
+  
+  .cabecalho img{
+  width: 240px;
+  border-radius: 100%;
+  background-colo:#00ccb9;
+  }
+  
+  .cabecalho a{
+  display: flex;
+  color: #000;
+  font-size: 40px;
+  padding: 10%;
+  text-decoration: none;
+  }
+  
+  .container h1{
+  font-size: 175px;
+ }
+ 
+ .container2 a{
+  font-size: 20px;
+  color: white;
+ }
+ 
+ .gmail{
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+ }
 }
