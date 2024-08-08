@@ -130,7 +130,7 @@ body{
   color: #000;
 }
 
-@media (min-width: 468px) and (max-width: 575.98px){
+@media (min-width: 340px) and (max-width: 575.98px){
   body{
   background-colo: blue;
   }
@@ -143,7 +143,7 @@ body{
   .cabecalho a{
   display: flex;
   color: #000;
-  font-size: 20px;
+  font-size: 10px;
   padding: 10px;
   text-decoration: none;
   }
