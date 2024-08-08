@@ -1,6 +1,6 @@
 @font-face{
   font-family: Cinzel;
-  src: url("/font/Cinzel-Regular.ttf") format('truetype');
+  src: url("./font/Cinzel-Regular.ttf") format('truetype');
   font-weight: 100;
 }
 
@@ -136,7 +136,7 @@ body{
   color: #000;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px){
+@media (min-width: 468px) and (max-width: 767.98px){
   body{
   background-colo: blue;
   }
