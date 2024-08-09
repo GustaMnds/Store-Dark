@@ -107,7 +107,7 @@ h1{
   padding: 10px 0px 10px 0px;
 }
 
-@media (min-width: 468px) and (max-width: 575.98px){
+@media (min-width: 340px) and (max-width: 575.98px){
   body{
   background-colo: blue;
   }
@@ -120,11 +120,59 @@ h1{
   .cabecalho a{
   display: flex;
   color: #000;
-  font-size: 20px;
+  font-size: 10px;
   padding: 10px;
   text-decoration: none;
   }
   
+  .title{
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+ }
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+.container2{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+.itens{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8B8D81;
+  border-radius: 10px;
+
+ }
+
+img{
+  width: 91px;
+  border-radius: 10px 10px 0px 0px;
+  padding: ;
+  cursor: pointer;
+ }
+
+h1{
+  font-size: 3px;
+  padding: 2px 0px 2px 0px;
+  font-weight: 300;
+ }
 }
 
 
