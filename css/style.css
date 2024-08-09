@@ -173,9 +173,10 @@ body{
   .cabecalho a{
   display: flex;
   color: #000;
-  font-size: 20px;
+  font-size: 25px;
   padding: 10px;
   text-decoration: none;
+  font-weight: 500;
   }
   
   .container h1{
