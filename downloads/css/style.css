@@ -169,7 +169,7 @@ img{
  }
 
 h1{
-  font-size: 3px;
+  font-size: 20px;
   padding: 2px 0px 2px 0px;
   font-weight: 300;
  }
@@ -178,7 +178,7 @@ h1{
 
 @media (min-width: 576px) and (max-width: 767.98px){
   body{
-  background-colo: blue;
+  background-color: blue;
   }
   
   .cabecalho img{
