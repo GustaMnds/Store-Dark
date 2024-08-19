@@ -1,0 +1,289 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Cinzel, Sans-Serif;
+   font-weight: 200;
+}
+
+body {
+  background: rgba(68, 81, 81);
+  width: 100%;
+  height: 100%;
+}
+
+main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.cabecalho{
+   padding: % 0;
+}
+
+.barra{
+   width: 100%;
+   padding: 10px 0px 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.barra a{
+   width: 10%;
+   background: rgba(68, 81, 81, 0.5);
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.barra img{
+   width: 40px;
+   rotate: ;
+}
+
+#seta{
+   width: 40px;
+   rotate: 180deg;
+}
+
+video {
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   object-fit: cover;
+   filter: brightness(60%);
+}
+
+.degrade{
+   position: absolute;
+   background-image: linear-gradient(
+   rgba(68, 81, 81, 0.0) 50%, rgba(68, 81, 81)
+   
+   );
+   width: 100%;
+   height: 340px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.info{
+   width: 100%;
+   background: b;
+   position: relative;
+   margin-top: 14%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.informacoes{
+   background: ;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.informacoes #logo{
+   width: 250px;
+   border-radius: 20px;
+}
+
+.mb{
+   background: rd;
+   color: white;
+   position: relative;
+   margin-top: 13%;
+   width: 24%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.clasificacao{
+   background: ble;
+   display: flex;
+   position: relative;
+   margin-top: 15%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.clasificacao a{
+   color: white;
+   text-decoration: none;
+   font-size: 13px;
+}
+
+.titulo{
+   background: rd;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+   margin-top: 20px;
+}
+
+.tituloh1{
+   background: gren;
+   color: white;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.btn{
+   background: puple;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin-top: 30px;
+}
+
+.btnd{
+   width: 230px;
+   height: 40px;
+   border: none;
+   border-radius: 10px;
+   background: #757474;
+}
+
+.center{
+  width: 100%;
+  background: ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 30px;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+iframe{
+  width: 55vh;
+  height: 100%;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+.carousel-container img,
+.carousel-container .video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thumbnails {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.thumbnails img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.thumbnails img:hover {
+    transform: scale(1.1);
+}
+
+.empresa{
+   background: #303D3D;
+   width: 90%;
+   border-radius: 10px 10px 0px 0px;
+   position: relative;
+   margin-top: 30px;
+}
+
+.empresa h2{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #787B7B;
+  position: relative;
+  margin-left: 10px;
+}
+
+.empresa h2 p{
+   color: white;
+   position: relative;
+   margin-left: 10px;
+   font-size: 15px;
+}
+
+.social{
+   background: #303D3D;
+   width: 90%;
+   height: 13vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 0px 0px 10px 10px;
+   flex-direction: column;
+}
+
+.coluna{
+   background: rgba(68, 81, 81);
+   width: 97%;
+}
+
+.coluna a{
+   color: white;
+}
+
+.espaco{
+   padding: %;
+}
+
+.loren{
+   background: #303D3D;
+   width: 90%;
+   position: relative;
+   margin-top: 30px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.tamanho{
+  width: 97%;
+  color: white;
+}
+
+.suporte{
+   padding: 30px;
+}
+
+.suporte a{
+   color: white;
+   font-size: 15px;
+}
