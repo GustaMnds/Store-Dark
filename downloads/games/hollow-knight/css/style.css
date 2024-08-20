@@ -37,6 +37,8 @@ main{
    display: flex;
    align-items: center;
    justify-content: center;
+   position: relative;
+   margin-left: 10px;
 }
 
 .barra img{
@@ -93,6 +95,8 @@ video {
 .informacoes #logo{
    width: 250px;
    border-radius: 20px;
+   position: relative;
+   margin-right: 10px;
 }
 
 .mb{
@@ -114,6 +118,12 @@ video {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   position: relative;
+   margin-left: 10px;
+}
+
+.clasificacao img{
+   width: 40px;
 }
 
 .clasificacao a{
@@ -288,9 +298,147 @@ iframe{
    font-size: 15px;
 }
 
+#errorReportBox h2{
+  color: white;
+}
+
+#errorReportForm{
+  color: white;
+}
+
+#email{
+  color: white;
+}
+
+#message{
+  color: white;
+}
+
+#errorReportBox {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #303D3D;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.closeBtn {
+    background-color: #757474;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+
+button{
+   background-color: #757474;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   height: 3vh;
+}
+
+@media (min-width: 100px) and (max-width: 339.98px){
+  body{
+  background-color: geen;
+  }
+    .degrade{
+   position: absolute;
+   background-image: linear-gradient(
+   rgba(68, 81, 81, 0.0) 50%, rgba(68, 81, 81)
+   
+   );
+   width: 100%;
+   height: 205px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+ 
+.barra img{
+   width: 25px;
+}
+
+#seta{
+   width: 15px;
+   rotate: 180deg;
+}
+
+.barra a{
+   width: 20%;
+   height: 7vh;
+   background: rgba(68, 81, 81, 0.5);
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.informacoes #logo{
+   width: 90px;
+}
+
+.mb{
+   background: rd;
+   color: white;
+   position: relative;
+   margin-top: 13%;
+   width: 24%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 10px;
+}
+
+.clasificacao{
+   background: ble;
+   display: flex;
+   position: relative;
+   margin-top: 15%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.clasificacao a{
+   color: white;
+   text-decoration: none;
+   font-size: 7px;
+}
+
+.tituloh1{
+  font-size: 16px;
+}
+
+.thumbnails img {
+    width: 25px;
+    height: 25px;
+}
+}
+
 @media (min-width: 340px) and (max-width: 575.98px){
   body{
-  background-colo: blue;
+  background-color: ble;
   }
   
   .degrade{
@@ -300,11 +448,80 @@ iframe{
    
    );
    width: 100%;
-   height: 165px;
+   height: 205px;
    display: flex;
    justify-content: center;
    align-items: center;
+   z-index: ;
 }
+
+.barra img{
+   width: 30px;
+}
+
+#seta{
+   width: 30px;
+   rotate: 180deg;
+}
+
+.barra a{
+   width: 20%;
+   height: 7vh;
+   background: rgba(68, 81, 81, 0.5);
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.informacoes #logo{
+   width: 120px;
+   border-radius: 20px;
+}
+
+.mb{
+   background: rd;
+   color: white;
+   position: relative;
+   margin-top: 13%;
+   width: 24%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+}
+
+.clasificacao{
+   background: ble;
+   display: flex;
+   position: relative;
+   margin-top: 15%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   margin-left: 10px;
+}
+
+.clasificacao img{
+   width: 30px;
+}
+
+.clasificacao a{
+   color: white;
+   text-decoration: none;
+   font-size: 7px;
+}
+
+.tituloh1{
+  font-size: 16px;
+}
+
+.thumbnails img {
+    width: 35px;
+    height: 35px;
+}
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
