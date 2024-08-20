@@ -13,14 +13,14 @@
 <body>
    <header class="cabecalho">
      <video muted autoplay loop>
-       <source src="video/video-capa.mp4" type="video/mp4">
+       <source src="video/Video-capa.mp4" type="video/mp4">
        </source>
      </video>
      <div class="degrade">
      </div>
          <ul class="barra">
-           <a href=""><img id="seta" src="img/seta.png" alt="Logo"></a>
-           <a href=""><img src="img/partilhar.png" alt="compartilhar"></a>
+           <a href="../../../index2.html"><img id="seta" src="img/seta.png" alt="Logo"></a>
+           <a href="" id="shareBtn"><img src="img/partilhar.png" alt="compartilhar"></a>
          </ul>
    </header>
          <main>
@@ -39,9 +39,10 @@
              <div class="tituloh1">
                <h1>Hollow Knight</h1>
                <h3>(Mobile)</h3>
+               <h3>Todas as DLCS</h3>
              </div>
              <div class="btn">
-               <a href="instagram.com"><button class="btnd">Download</button></a>
+               <a href="https://www.mediafire.com/file/31yaws8av3w9xe1/Hollow_Knight_-_v1.5.78.1022_.apk/file"><button class="btnd">Download</button></a>
              </div>
            </section>
           <div class="center">
@@ -81,15 +82,15 @@
              <div class="social">
                <div class="coluna">
                  <img src="" alt="">
-                 <a href="">Acesse o Site oficial</a>
+                 <a href="https://www.hollowknight.com/">Acesse o Site oficial</a>
                </div>
                <div class="coluna">
                  <img src="" alt="">
-                 <a href="">icone-facebook</a>
+                 <a href="https://www.facebook.com/teamcherrygames">Facebook</a>
                </div>
                <div class="coluna">
                  <img src="" alt="">
-                 <a href="">YouTube</a>
+                 <a href="https://youtube.com/@teamcherry?si=ghHTj87zTd59_4yM">YouTube</a>
                </div>
                <div class="espaco">
                  
@@ -104,11 +105,28 @@
            </section>
            
            <section class="suporte">
-             <a href="">Suporte/Reportar erros</a>
+             <a href="" id="reportLink">Suporte/Reportar erros</a>
            </section>
          </main>
       </div>
+    <div id="overlay"></div>
+    <div id="errorReportBox">
+        <button class="closeBtn">X</button>
+        <h2>Relatar Erro</h2>
+        <form id="errorReportForm">
+            <label for="email">Seu Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Descrição do Erro:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
       
       <script src="js/script.js"></script>
+      <script>
+        function 
+      </script>
 </body>
 </html>
